@@ -31,7 +31,7 @@ func main() {
     userInput-- // lowered for indexing
     
     // error checking
-    if userInput > 9 || userInput == 9 {
+    if userInput > 8 {
       fmt.Println("invalid move try again")
       continue
     }
