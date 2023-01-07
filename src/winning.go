@@ -15,6 +15,7 @@ func isWon(board []rune, player rune) bool {
     top := isSame(board[6:9], player)
     middle := isSame(board[3:6], player)
     bottom := isSame(board[0:3], player)
+    
     return top || middle || bottom
   }()
 
